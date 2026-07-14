@@ -658,7 +658,7 @@ body {
   top: -7px;
   width: 13px;
   height: 13px;
-  background: #fff;
+  background: var(--strong-soft);
   border-top: 1px solid rgba(32, 36, 42, 0.10);
   border-left: 1px solid rgba(32, 36, 42, 0.10);
   transform: rotate(45deg);
@@ -684,6 +684,7 @@ body {
 }
 
 .popover-header {
+  border-radius: 15px 15px 0 0;
   padding: 14px 15px 11px;
   border-bottom: 1px solid #dce7f7;
   background: var(--strong-soft);
